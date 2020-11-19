@@ -1,5 +1,26 @@
-$background: grey;
+@import "~normalize.css";
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+@import "header";
+@import "toolbar";
+@import "formula";
+@import "table";
+
+$background: #f3f3f3;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
+  font-family: 'Nunito', sans-serif;
+  font-size: 12px;
   background-color: $background;
+}
+
+.excel {
+  position: relative;
+  color: #888;
 }
